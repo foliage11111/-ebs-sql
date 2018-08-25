@@ -34,7 +34,7 @@ SELECT user_name
       ,responsibility_name
       ,cc.description
   FROM fnd_user              aa
-      ,fnd_user_resp_groups  bb
+      ,fnd_user_resp_groups_all  bb
       ,fnd_responsibility_vl cc
       ,per_people_f          dd
  WHERE aa.user_id = bb.user_id
